@@ -1,0 +1,5 @@
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LogisticRegression
+df=pd.read_csv('../input/early-stage-diabetes-risk-prediction-dataset/diabetes_data_upload.csv')
+df
+df=df.drop('Gender',1)
